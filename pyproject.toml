@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "quant_project_template"
+version = "0.1.0"
+description = "Base template for quant research projects"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+black = "*"
+flake8 = "*"
