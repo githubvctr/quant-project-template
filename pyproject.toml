@@ -1,8 +1,9 @@
 [tool.poetry]
-name = "quant_project_template"
+name = "quant-project-template"
 version = "0.1.0"
-description = "Base template for quant research projects"
-authors = ["Your Name <you@example.com>"]
+description = ""
+authors = ["victorbarna@hotmail.fr"]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -12,3 +13,6 @@ pandas = "*"
 pytest = "*"
 black = "*"
 flake8 = "*"
+
+[tool.poetry.scripts]
+summarize = "tools.summarize_project:main"
